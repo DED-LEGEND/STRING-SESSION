@@ -37,15 +37,15 @@ import config
 ask_ques = "» ᴘᴀʏʀᴏ ʜɪ ʟᴇ ʟᴇ ᴛᴇʟᴇᴛʜᴏɴ sᴇ ᴛᴇʀɪ ɢᴀᴍɴᴅ ʟᴀɢ sᴀᴋᴛɪ ʜᴇ :"
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram1"),
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ᴠ2", callback_data="pyrogram"),
+        InlineKeyboardButton("𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌", callback_data="pyrogram1"),
+        InlineKeyboardButton("𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕2", callback_data="pyrogram"),
     ],
     [
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐁𝐎𝐓", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐁𝐎𝐓", callback_data="telethon_bot"),
     ],
 ]
 
@@ -65,7 +65,7 @@ async def main(_, msg):
 
 async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: bool = False, is_bot: bool = False):
     if telethon:
-        ty = "𝖳𝖤𝖫𝖤𝖳𝖧𝖮𝖭"
+        ty = "TELETHON"
     else:
         ty = "𝖯𝖸𝖱𝖮𝖦𝖱𝖠𝖬"
         if not old_pyro:
